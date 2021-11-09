@@ -105,7 +105,7 @@
     
         // Merge the temp arrays back into array[left..right]
         while (indexOfSubArrayOne < subArrayOne && indexOfSubArrayTwo < subArrayTwo) {
-            if (leftArray[indexOfSubArrayOne] <= rightArray[indexOfSubArrayTwo]) {
+            if (leftArray[indexOfSubArrayOne] >= rightArray[indexOfSubArrayTwo]) {
                 list[indexOfMergedArray] = leftArray[indexOfSubArrayOne];
                 indexOfSubArrayOne++;
             }
