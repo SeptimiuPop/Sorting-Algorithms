@@ -12,13 +12,12 @@ The software requirements to run must be the following :
 - C++ 11 or above
 - SFML library installed
 
-From the terminal use the following commands to give users permission to run the scripts
+From the terminal use the following commands to give users permission to run the scripts. Replace File-name with the name of the shell script you want to give permission to :
 
 ```properties
 sudo chmod u+x <file-name>
 ```  
-
-Replace <File-name> with the name of the shell script you want to give permission to. For example :
+Example :
 
 ```properties
 sudo chmod u+x run.sh
